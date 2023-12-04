@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "0S9QB7IkBIxEeEAkgXZC4D3aW4tlSC+EemcSreUKBAc=",
+  "Source": "DemoNetRabbitMicroservices",
+  "BasePath": "_content/DemoNetRabbitMicroservices",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}
