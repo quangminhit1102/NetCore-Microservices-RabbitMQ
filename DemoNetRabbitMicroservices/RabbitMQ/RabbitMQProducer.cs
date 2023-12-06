@@ -18,13 +18,20 @@ namespace DemoNetRabbitMicroservices.RabbitMQ
             //Here we create channel with session and model
             using var channel = connection.CreateModel();
 
-            //declare the queue after mentioning name and a few property related to that
-            channel.QueueDeclare("product", exclusive: false);
+            // Declare Exchange
+            channel.ExchangeDeclare("product-exchange", ExchangeType.Direct, durable: true, autoDelete: false, null);
+
+            // Declare Queue
+            channel.QueueDeclare("product-queue", exclusive: false);
+
+            // Bind Queue to an Exchange
+            channel.QueueBind(queue: "product-queue", exchange: "product-exchange", routingKey: "product", arguments: null);
+
             //Serialize the message
             var json = JsonConvert.SerializeObject(message);
             var body = Encoding.UTF8.GetBytes(json);
             //put the data on to the product queue
-            channel.BasicPublish(exchange: "", routingKey: "product", body: body);
+            channel.BasicPublish(exchange: "product-exchange", routingKey: "product", body: body);
         }
     }
 }
