@@ -10,7 +10,17 @@
       "ProjectGuid": "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3",
       "DisplayName": "Miscellaneous Files",
       "ColorIndex": -1
+    },
+    "e7275f3d-18a5-4199-b641-d77932eab1fa": {
+      "ProjectGuid": "e7275f3d-18a5-4199-b641-d77932eab1fa",
+      "DisplayName": "ClientRabbitMQConsole",
+      "ColorIndex": 1
+    },
+    "d23f14e7-3857-4809-a2db-87fc344e4f9b": {
+      "ProjectGuid": "d23f14e7-3857-4809-a2db-87fc344e4f9b",
+      "DisplayName": "OrderService",
+      "ColorIndex": 2
     }
   },
-  "NextColorIndex": 1
+  "NextColorIndex": 3
 }
