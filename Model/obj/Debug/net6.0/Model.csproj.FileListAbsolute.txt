@@ -9,3 +9,4 @@ D:\Project\DemoNetRabbitMicroservices\DemoNetRabbitMicroservices\Model\obj\Debug
 D:\Project\DemoNetRabbitMicroservices\DemoNetRabbitMicroservices\Model\obj\Debug\net6.0\Model.dll
 D:\Project\DemoNetRabbitMicroservices\DemoNetRabbitMicroservices\Model\obj\Debug\net6.0\ref\Model.dll
 D:\Project\DemoNetRabbitMicroservices\DemoNetRabbitMicroservices\Model\obj\Debug\net6.0\Model.pdb
+D:\Project\DemoNetRabbitMicroservices\DemoNetRabbitMicroservices\Model\obj\Debug\net6.0\Model.csproj.AssemblyReference.cache

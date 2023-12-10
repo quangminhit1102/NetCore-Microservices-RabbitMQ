@@ -20,9 +20,16 @@ namespace OrderService.Settings
                 x.UsingRabbitMq((ctx, cfg) =>
                 {
                     cfg.Host("amqp://guest:guest@localhost:5672");
-                    cfg.ReceiveEndpoint("order-queue", c =>
+                    
+                    cfg.ReceiveEndpoint("order-queue", e =>
                     {
-                        c.ConfigureConsumer<OrderConsumer>(ctx);
+                        e.Bind("order-direct-exchange", x =>
+                        {
+                            x.RoutingKey = "direct-exchange";
+                            x.ExchangeType = "direct";
+                        });
+
+                        e.ConfigureConsumer<OrderConsumer>(ctx);
                     });
                 });
             });

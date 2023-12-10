@@ -1,5 +1,6 @@
 ﻿using MassTransit;
 using Model;
+using Newtonsoft.Json;
 
 namespace OrderService.Settings
 {
@@ -7,7 +8,7 @@ namespace OrderService.Settings
     {
         public async Task Consume(ConsumeContext<Order> context)
         {
-            await Console.Out.WriteLineAsync(context.Message.Name).ConfigureAwait(false);
+            await Console.Out.WriteLineAsync(JsonConvert.SerializeObject(context.Message)).ConfigureAwait(false);
         }
     }
 }

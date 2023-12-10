@@ -39,3 +39,4 @@ D:\Project\DemoNetRabbitMicroservices\DemoNetRabbitMicroservices\InventoryServic
 D:\Project\DemoNetRabbitMicroservices\DemoNetRabbitMicroservices\InventoryService\obj\Debug\net6.0\ref\InventoryService.dll
 D:\Project\DemoNetRabbitMicroservices\DemoNetRabbitMicroservices\InventoryService\obj\Debug\net6.0\InventoryService.pdb
 D:\Project\DemoNetRabbitMicroservices\DemoNetRabbitMicroservices\InventoryService\obj\Debug\net6.0\InventoryService.genruntimeconfig.cache
+D:\Project\DemoNetRabbitMicroservices\DemoNetRabbitMicroservices\InventoryService\bin\Debug\net6.0\Newtonsoft.Json.dll
