@@ -20,7 +20,22 @@
       "ProjectGuid": "d23f14e7-3857-4809-a2db-87fc344e4f9b",
       "DisplayName": "OrderService",
       "ColorIndex": 2
+    },
+    "0e18c965-81ae-4061-be28-3734c76ac7c8": {
+      "ProjectGuid": "0e18c965-81ae-4061-be28-3734c76ac7c8",
+      "DisplayName": "Model",
+      "ColorIndex": 3
+    },
+    "020fde4c-621f-4a36-8852-58ff311f84ea": {
+      "ProjectGuid": "020fde4c-621f-4a36-8852-58ff311f84ea",
+      "DisplayName": "InventoryService",
+      "ColorIndex": 4
+    },
+    "273aab15-8ef6-4465-a3ee-dc529e718332": {
+      "ProjectGuid": "273aab15-8ef6-4465-a3ee-dc529e718332",
+      "DisplayName": "OrderService",
+      "ColorIndex": 5
     }
   },
-  "NextColorIndex": 3
+  "NextColorIndex": 6
 }
